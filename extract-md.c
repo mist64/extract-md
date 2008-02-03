@@ -1,16 +1,22 @@
+// extract-md by Michael Steil <mist@c64.org>
+//
+// extracts text and graphics from all Magic Disk 64 issues
+// due to the TIMEX copy protection, issues 04/90 to 05/91
+// lack the names of the texts
+
+// TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO
 // XXX: circles in files
 // XXX: crosslinked files?
 // 3x bus error, 1x segmentation fault
 // 2x decompression failed
 //  MD9303-UTILITIES-MUSIX MIXER.html -- file BROKEN!!
 //  MD9112-INTERN-HOTLINE.html        -- file BROKEN!! (graphics; text is ok)
-
 // MD9108, text "91" is missing
 // MD9503, a lot missing
 // check umlauts. scan for Üsterreich
-
 // extract music as well?
 // make sure all files are OK (and are text!)
+// TODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODOTODO
 
 #include <stdio.h>
 #include <string.h>
